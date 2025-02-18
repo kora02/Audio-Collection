@@ -1,0 +1,76 @@
+.setup-container{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../Assets/Images/background.jpg');
+    background-size: cover;
+    background-position: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-setup{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    height: 70%; 
+    box-shadow: 0 0 8px 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-title{
+    height: 25%;
+    overflow: hidden;
+    place-content: center;
+    text-align: -webkit-center;
+}
+
+.container-body{
+
+    height: 75%;
+    overflow: hidden;
+}
+
+.progress-bar{
+    width: 85%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.first-part-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#dugme{
+    width: 75%;
+    margin: 20px;
+    background: linear-gradient(to right, #f7ca18, #e1c29e);
+    color: black;
+    border-color: goldenrod;
+    place-self: center;
+    margin-top: 30px;
+}
+
+#dugmeNazad{
+    width: 30%;
+    margin: 20px;
+    background: linear-gradient(to right, #f7ca18, #e1c29e);
+    color: black;
+    border-color: goldenrod;
+    place-self: center;
+    margin-top: 30px;
+}
+.second-part-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.grupa-dugmadi{
+    display: flex;
+}

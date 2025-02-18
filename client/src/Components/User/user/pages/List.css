@@ -1,0 +1,89 @@
+
+
+.wrapper {
+    max-height: 300px;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow-x:auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+
+.wrapper .item {
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+    margin-right: 2px;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-height: 500px;
+  gap: 20px; 
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.grid-container .item {
+  min-width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+  margin-right: 2px;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  overflow: hidden;
+  text-decoration: none;
+  padding: 20px;
+  min-width: 200px;
+}
+
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  text-decoration: none;
+}
+
+
+
+
+.listTitleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .listTitle {
+    font-size: 24px;
+  }
+  
+  .viewAllLink {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .viewAllLink:hover {
+    text-decoration: underline;
+  }
+
